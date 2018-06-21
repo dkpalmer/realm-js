@@ -13,6 +13,7 @@
 * Improved performance for devices which can support large address spaces.
 * [Sync] Exposed custom HTTP headers in `Realm.Configuration` (#1897).
 * Improved performance of `Realm.compact()`.
+* Improved performance of `realm.create()` when running in node.
 
 ### Bug fixes
 * [RN Android] Ported workaround for crashes in `memmove`/`memcpy` on some old Android devices (#1163 and #1895).
